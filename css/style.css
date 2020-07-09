@@ -99,18 +99,19 @@
     font-family: 'Titillium Web', sans-serif;
     color: #ffc85a;
     /*background-image: url('');*/
+    background-color: #262626;
     background-repeat: no-repeat;
     background-position: right top;
     background-size: 20%;
   }
   p {
     font-family: 'Titillium Web', sans-serif;
-    color: #333;
+    color: #fff;
     margin-bottom: 2em;
   }
   li {
     font-family: 'Titillium Web', sans-serif;
-    color: #333;
+    color: #fff;
     margin-bottom: 2em;
     margin: 0;
   }

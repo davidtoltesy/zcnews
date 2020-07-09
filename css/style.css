@@ -98,25 +98,27 @@
   body {
     font-family: 'Titillium Web', sans-serif;
     color: #ffc85a;
-    /*background-image: url('');
-    background-repeat: no-repeat;
-    background-position: right top;
-    background-size: 20%;*/
+    margin-top: 100px;
     background-color: #262626;
   }
   p {
     font-family: 'Titillium Web', sans-serif;
     color: #fff;
+    font-size: large;
     margin-bottom: 2em;
   }
   li {
     font-family: 'Titillium Web', sans-serif;
     color: #fff;
+    font-size: large;
     margin-bottom: 2em;
     margin: 0;
   }
   h2 {
     margin: 2em 0 1em;
+  }
+  h4 {
+    font-size: xx-large;
   }
   .title {
     padding: 28px;

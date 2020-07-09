@@ -98,11 +98,11 @@
   body {
     font-family: 'Titillium Web', sans-serif;
     color: #ffc85a;
-    /*background-image: url('');*/
-    background-color: #262626;
+    /*background-image: url('');
     background-repeat: no-repeat;
     background-position: right top;
-    background-size: 20%;
+    background-size: 20%;*/
+    background-color: #262626;
   }
   p {
     font-family: 'Titillium Web', sans-serif;

@@ -99,7 +99,8 @@
     font-family: 'Titillium Web', sans-serif;
     color: #ffc85a;
     margin-top: 20px;
-    background-color: #262626;
+    /*background-color: #262626;*/
+    background-color: transparent;
   }
   p {
     font-family: 'Titillium Web', sans-serif;

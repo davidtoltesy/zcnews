@@ -17,7 +17,7 @@ html {
   /* 2 */
   -webkit-text-size-adjust: 100%;
   /* 3 */
-  background: transparent;
+  background: transparent !important;
   color: #666;
 }
 /*

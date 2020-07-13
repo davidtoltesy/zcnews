@@ -3012,6 +3012,8 @@ select.uk-form-width-xsmall {
   background: #ffc85a;
   color: #fff;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+  border: 4px solid #ffc85a;
 }
 .uk-card-primary .uk-card-title {
   font-family: 'Titillium Web', sans-serif;
@@ -3028,6 +3030,8 @@ select.uk-form-width-xsmall {
   background: #222;
   color: #fff;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+  border: 4px solid #ffc85a;
 }
 .uk-card-secondary .uk-card-title {
   font-family: 'Titillium Web', sans-serif;

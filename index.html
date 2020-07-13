@@ -1,111 +1,123 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <title>Title</title>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="css/uikit.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- Google Font -->
         <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;700;900&display=swap" rel="stylesheet">
+        <!-- UIKIT CSS -->
+        <link rel="stylesheet" href="css/uikit.css" />
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <!-- UIKIT JS -->
         <script src="js/uikit.js"></script>
         <script src="js/uikit-icons.min.js"></script>
+        <!-- Bootsrap JS -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     </head>
 <body>
-    
-    <div uk-slider="center: false">
-  
-        <div class="uk-position-relative uk-slider-container uk-visible-toggle uk-light" tabindex="-1" >
+    <div class="row">
+        <div class="col-1"></div>
+        <div class="col-10">
+            <div uk-slider="center: false">
+        
+                <div class="uk-position-relative uk-slider-container uk-visible-toggle uk-light" tabindex="-1" >
 
-            <ul class="uk-slider-items uk-child-width-1-3@s uk-grid-medium uk-grid-match">
-                <li>
-                    <div class="uk-card uk-card-secondary uk-card-hover uk-card-large uk-light">
-                        <div class="uk-card-badge uk-label">Update</div>
-                        <div class="uk-card-media-top">
-                            <img src="images/news_1.jpg" alt="">
-                        </div>
-                        <div class="uk-card-body">
-                            <h3 class="uk-card-title">Skin system</h3>
-                            <p>Unlock more skins with higher ranks, or find special helmets on the maps & customize your character.</p>
-                        </div>
-                        <div class="uk-card-footer"> 
-                            <p class="uk-text-meta uk-margin-remove-top"> <span class="uk-margin-small-right" uk-icon="calendar"></span> <time datetime="2016-04-01T19:00">August 01, 2020</time></p>
-                        </div>
+                    <ul class="uk-slider-items uk-child-width-1-3@s uk-grid-medium uk-grid-match">
+                        <li>
+                            <div class="uk-card uk-card-secondary uk-card-hover uk-card-large uk-light">
+                                <div class="uk-card-badge uk-label">Update</div>
+                                <div class="uk-card-media-top">
+                                    <img src="images/news_1.jpg" alt="">
+                                </div>
+                                <div class="uk-card-body">
+                                    <h3 class="uk-card-title">Skin system</h3>
+                                    <p>Unlock more skins with higher ranks, or find special helmets on the maps & customize your character.</p>
+                                </div>
+                                <div class="uk-card-footer"> 
+                                    <p class="uk-text-meta uk-margin-remove-top"> <span class="uk-margin-small-right" uk-icon="calendar"></span> <time datetime="2016-04-01T19:00">August 01, 2020</time></p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="uk-card uk-card-secondary uk-card-hover uk-card-large uk-light">
+                                <div class="uk-card-badge uk-label">Badge</div>
+                                <div class="uk-card-media-top">
+                                    <img src="images/news_2.jpg" alt="">
+                                </div>
+                                <div class="uk-card-body">
+                                    <h3 class="uk-card-title">Improved Map</h3>
+                                    <p>Reworked the first campaign map: Timber Part 1.</p>
+                                </div>
+                                <div class="uk-card-footer">
+                                    <p class="uk-text-meta uk-margin-remove-top"> <span class="uk-margin-small-right" uk-icon="calendar"></span> <time datetime="2016-04-01T19:00">August 01, 2020</time></p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="uk-card uk-card-secondary uk-card-hover uk-card-large uk-light">
+                                <div class="uk-card-badge uk-label">Badge</div>
+                                <div class="uk-card-media-top">
+                                    <img src="images/news_3.jpg" alt="">
+                                </div>
+                                <div class="uk-card-body">
+                                    <h3 class="uk-card-title">Headline</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                                </div>
+                                <div class="uk-card-footer">
+                                    <p class="uk-text-meta uk-margin-remove-top"> <span class="uk-margin-small-right" uk-icon="calendar"></span> <time datetime="2016-04-01T19:00">August 01, 2020</time></p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="uk-card uk-card-secondary uk-card-hover uk-card-large uk-light">
+                                <div class="uk-card-badge uk-label">Badge</div>
+                                <div class="uk-card-media-top">
+                                    <img src="images/news_4.jpg" alt="">
+                                </div>
+                                <div class="uk-card-body">
+                                    <h3 class="uk-card-title">Headline</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                                </div>
+                                <div class="uk-card-footer">
+                                    <p class="uk-text-meta uk-margin-remove-top"> <span class="uk-margin-small-right" uk-icon="calendar"></span> <time datetime="2016-04-01T19:00">August 01, 2020</time></p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="uuk-card uk-card-secondary uk-card-hover uk-card-large uk-light">
+                                <div class="uk-card-badge uk-label">Badge</div>
+                                <div class="uk-card-media-top">
+                                    <img src="images/news_5.jpg" alt="">
+                                </div>
+                                <div class="uk-card-body">
+                                    <h3 class="uk-card-title">Headline</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                                </div>
+                                <div class="uk-card-footer">
+                                    <p class="uk-text-meta uk-margin-remove-top"> <span class="uk-margin-small-right" uk-icon="calendar"></span> <time datetime="2016-04-01T19:00">August 01, 2020</time></p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                    
+                <div class="uk-slidenav-container">
+                    
+                    <div class="uk-visible@s uk-dark">
+                        <a class="uk-slidenav-large uk-position-center-left-out uk-position-medium uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+                        <a class="uk-slidenav-large uk-position-center-right-out uk-position-medium uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
                     </div>
-                </li>
-                <li>
-                    <div class="uk-card uk-card-secondary uk-card-hover uk-card-large uk-light">
-                        <div class="uk-card-badge uk-label">Badge</div>
-                        <div class="uk-card-media-top">
-                            <img src="images/news_2.jpg" alt="">
-                        </div>
-                        <div class="uk-card-body">
-                            <h3 class="uk-card-title">Improved Map</h3>
-                            <p>Reworked the first campaign map: Timber Part 1.</p>
-                        </div>
-                        <div class="uk-card-footer">
-                            <p class="uk-text-meta uk-margin-remove-top"> <span class="uk-margin-small-right" uk-icon="calendar"></span> <time datetime="2016-04-01T19:00">August 01, 2020</time></p>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <div class="uk-card uk-card-secondary uk-card-hover uk-card-large uk-light">
-                        <div class="uk-card-badge uk-label">Badge</div>
-                        <div class="uk-card-media-top">
-                            <img src="images/news_3.jpg" alt="">
-                        </div>
-                        <div class="uk-card-body">
-                            <h3 class="uk-card-title">Headline</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-                        </div>
-                        <div class="uk-card-footer">
-                            <p class="uk-text-meta uk-margin-remove-top"> <span class="uk-margin-small-right" uk-icon="calendar"></span> <time datetime="2016-04-01T19:00">August 01, 2020</time></p>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <div class="uk-card uk-card-secondary uk-card-hover uk-card-large uk-light">
-                        <div class="uk-card-badge uk-label">Badge</div>
-                        <div class="uk-card-media-top">
-                            <img src="images/news_4.jpg" alt="">
-                        </div>
-                        <div class="uk-card-body">
-                            <h3 class="uk-card-title">Headline</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-                        </div>
-                        <div class="uk-card-footer">
-                            <p class="uk-text-meta uk-margin-remove-top"> <span class="uk-margin-small-right" uk-icon="calendar"></span> <time datetime="2016-04-01T19:00">August 01, 2020</time></p>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <div class="uuk-card uk-card-secondary uk-card-hover uk-card-large uk-light">
-                        <div class="uk-card-badge uk-label">Badge</div>
-                        <div class="uk-card-media-top">
-                            <img src="images/news_5.jpg" alt="">
-                        </div>
-                        <div class="uk-card-body">
-                            <h3 class="uk-card-title">Headline</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-                        </div>
-                        <div class="uk-card-footer">
-                            <p class="uk-text-meta uk-margin-remove-top"> <span class="uk-margin-small-right" uk-icon="calendar"></span> <time datetime="2016-04-01T19:00">August 01, 2020</time></p>
-                        </div>
-                    </div>
-                </li>
-            </ul>
-        </div>
             
-        <div class="uk-slidenav-container">
-               
-            <div class="uk-visible@s uk-dark">
-                <a class="uk-slidenav-large uk-position-center-left uk-position-medium uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
-                <a class="uk-slidenav-large uk-position-center-right uk-position-medium uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+                </div>
+                
             </div>
-    
+   
         </div>
-    
-        <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
-    
-    </div>
-    
+    <div class="col-2"></div>
+</div>
 </body>
 </html>

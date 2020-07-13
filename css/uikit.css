@@ -3009,7 +3009,7 @@ select.uk-form-width-xsmall {
  * Primary
  */
 .uk-card-primary {
-  background: #262626;
+  background: #000;
   color: #fff;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
   border-radius: 10px;
@@ -3020,14 +3020,14 @@ select.uk-form-width-xsmall {
   color: #ffc85a !important;
 }
 .uk-card-primary.uk-card-hover:hover {
-  background-color: #262626;
+  background-color: #000;
   box-shadow: 0 14px 25px rgba(0, 0, 0, 0.16);
 }
 /*
  * Secondary
  */
 .uk-card-secondary {
-  background: #000;
+  background: #262626;
   color: #fff;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
   border-radius: 10px;
@@ -3038,7 +3038,7 @@ select.uk-form-width-xsmall {
   color: #ffc85a !important;
 }
 .uk-card-secondary.uk-card-hover:hover {
-  background-color: #000;
+  background-color: #262626;
   box-shadow: 0 14px 25px rgba(0, 0, 0, 0.16);
   border: 4px solid #ffc85a;
 }

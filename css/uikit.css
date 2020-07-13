@@ -170,7 +170,7 @@ video {
 @supports (display: block) {
   svg {
     max-width: 100%;
-    height: 80px;
+    height: auto;
     box-sizing: border-box;
   }
 }
@@ -3009,7 +3009,7 @@ select.uk-form-width-xsmall {
  * Primary
  */
 .uk-card-primary {
-  background: #1e87f0;
+  background: #ffc85a;
   color: #fff;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
 }

@@ -3009,7 +3009,7 @@ select.uk-form-width-xsmall {
  * Primary
  */
 .uk-card-primary {
-  background: #ffc85a;
+  background: #262626;
   color: #fff;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
   border-radius: 10px;
@@ -3017,29 +3017,30 @@ select.uk-form-width-xsmall {
 }
 .uk-card-primary .uk-card-title {
   font-family: 'Titillium Web', sans-serif;
-  color: #fff;
+  color: #ffc85a !important;
 }
 .uk-card-primary.uk-card-hover:hover {
-  background-color: #ffc85a;
+  background-color: #262626;
   box-shadow: 0 14px 25px rgba(0, 0, 0, 0.16);
 }
 /*
  * Secondary
  */
 .uk-card-secondary {
-  background: #222;
+  background: #262626;
   color: #fff;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
   border-radius: 10px;
-  border: 4px solid #ffc85a;
+  border: 4px solid transparent;
 }
 .uk-card-secondary .uk-card-title {
   font-family: 'Titillium Web', sans-serif;
   color: #ffc85a !important;
 }
 .uk-card-secondary.uk-card-hover:hover {
-  background-color: #222;
+  background-color: #262626;
   box-shadow: 0 14px 25px rgba(0, 0, 0, 0.16);
+  border: 4px solid #ffc85a;
 }
 /* Size modifier
  ========================================================================== */

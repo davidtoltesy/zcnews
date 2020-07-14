@@ -3029,7 +3029,7 @@ select.uk-form-width-xsmall {
 .uk-card-secondary {
   /*background: #262626;*/
   background: rgb(38,38,38);
-background: linear-gradient(0deg, rgba(38,38,38,1) 0%, rgba(0,0,0,1) 50%);
+  background: linear-gradient(0deg, rgba(38,38,38,1) 0%, rgba(0,0,0,1) 50%);
   color: #fff;
   /*box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);*/
   border-radius: 10px;

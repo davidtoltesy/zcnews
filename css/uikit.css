@@ -414,10 +414,22 @@ pre code {
 }
 /* Selection pseudo-element
  ========================================================================== */
-::selection {
+/*::selection {
   background: #ffc85a;
   color: #fff;
   text-shadow: none;
+}*/
+.unselectable {
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+
+  /*
+    Introduced in Internet Explorer 10.
+    See http://ie.microsoft.com/testdrive/HTML5/msUserSelect/
+  */
+  -ms-user-select: none;
+  user-select: none;
 }
 /* HTML5 elements
  ========================================================================== */

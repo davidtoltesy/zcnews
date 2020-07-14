@@ -419,20 +419,6 @@ pre code {
   color: #fff;
   text-shadow: none;
 }*/
-/* Hide hover effect - Unselectable
- ========================================================================== */
-.unselectable {
-  -moz-user-select: none;
-  -khtml-user-select: none;
-  -webkit-user-select: none;
-
-  /*
-    Introduced in Internet Explorer 10.
-    See http://ie.microsoft.com/testdrive/HTML5/msUserSelect/
-  */
-  -ms-user-select: none;
-  user-select: none;
-}
 /* HTML5 elements
  ========================================================================== */
 /*
@@ -3041,7 +3027,9 @@ select.uk-form-width-xsmall {
  * Secondary
  */
 .uk-card-secondary {
-  background: #262626;
+  /*background: #262626;*/
+  background: rgb(0,0,0);
+  background: linear-gradient(0deg, rgba(0,0,0,1) 000%, rgba(38,38,38,1) 30%);
   color: #fff;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
   border-radius: 10px;

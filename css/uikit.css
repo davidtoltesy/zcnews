@@ -419,6 +419,8 @@ pre code {
   color: #fff;
   text-shadow: none;
 }*/
+/* Hide hover effect - Unselectable
+ ========================================================================== */
 .unselectable {
   -moz-user-select: none;
   -khtml-user-select: none;

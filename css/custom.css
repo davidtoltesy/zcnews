@@ -1,10 +1,28 @@
+/* Hide bg color for the UE4 widget
+ ========================================================================== */
 body {
     background-color: transparent !important;
 }
 .body-bg {
     background-color: transparent !important;
 }
+/* Fixing bootsrap padding for the UE4 widget
+ ========================================================================== */
 .col-10 {
     padding-right: 0px !important;
     padding-left: 0px !important;
 }
+/* Hide hover effect - Unselectable
+ ========================================================================== */
+ .unselectable {
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+  
+    /*
+      Introduced in Internet Explorer 10.
+      See http://ie.microsoft.com/testdrive/HTML5/msUserSelect/
+    */
+    -ms-user-select: none;
+    user-select: none;
+  }

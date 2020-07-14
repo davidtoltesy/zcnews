@@ -3011,7 +3011,7 @@ select.uk-form-width-xsmall {
 .uk-card-primary {
   background: #000;
   color: #fff;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+  /*box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);*/
   border-radius: 10px;
   border: 4px solid #ffc85a;
 }
@@ -3021,7 +3021,7 @@ select.uk-form-width-xsmall {
 }
 .uk-card-primary.uk-card-hover:hover {
   background-color: #000;
-  box-shadow: 0 14px 25px rgba(0, 0, 0, 0.16);
+  /*box-shadow: 0 14px 25px rgba(0, 0, 0, 0.16);*/
 }
 /*
  * Secondary
@@ -3031,7 +3031,7 @@ select.uk-form-width-xsmall {
   background: rgb(0,0,0);
   background: linear-gradient(0deg, rgba(0,0,0,1) 000%, rgba(38,38,38,1) 30%);
   color: #fff;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+  /*box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);*/
   border-radius: 10px;
   border: 4px solid transparent;
 }
@@ -3041,7 +3041,7 @@ select.uk-form-width-xsmall {
 }
 .uk-card-secondary.uk-card-hover:hover {
   background-color: #262626;
-  box-shadow: 0 14px 25px rgba(0, 0, 0, 0.16);
+  /*box-shadow: 0 14px 25px rgba(0, 0, 0, 0.16);*/
   border: 4px solid #ffc85a;
 }
 /* Size modifier

@@ -771,7 +771,7 @@ a.uk-link-reset,
 }
 .uk-list-hyphen {
   list-style-type: '–  ';
-  display:list-item;
+  display: block;
 }
 /* Color modifiers
  * Doesn't work in Chrome and Edge yet

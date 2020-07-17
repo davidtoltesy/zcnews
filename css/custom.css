@@ -31,3 +31,6 @@ body {
   .slider-icon:hover {
     color: #ffc85a !important;
   }
+  .lista {
+    list-style-type: '–  ' !important;
+  }

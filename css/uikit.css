@@ -771,7 +771,6 @@ a.uk-link-reset,
 }
 .uk-list-hyphen {
   list-style-type: '–  ';
-  display: block;
 }
 /* Color modifiers
  * Doesn't work in Chrome and Edge yet
@@ -2939,7 +2938,7 @@ select.uk-form-width-xsmall {
     padding: 20px 40px;
   }
   .uk-card-footer {
-    padding: 0px 40px;
+    padding: 20px 40px;
   }
 }
 /*

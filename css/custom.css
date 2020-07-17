@@ -31,6 +31,8 @@ body {
   .slider-icon:hover {
     color: #ffc85a !important;
   }
-  .lista {
+    /*  List type ovverride
+ ========================================================================== */
+  .list-ovverride {
     list-style-type: '–  ' !important;
   }

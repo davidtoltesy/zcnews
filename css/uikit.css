@@ -3067,7 +3067,7 @@ select.uk-form-width-xsmall {
 @media (min-width: 1200px) {
   .uk-card-large.uk-card-body,
   .uk-card-large .uk-card-body {
-    padding: 70px 70px;
+    padding: 70px 70px 20px 70px;
   }
   .uk-card-large .uk-card-header {
     padding: 35px 70px;

@@ -26,6 +26,8 @@ body {
     -ms-user-select: none;
     user-select: none;
   }
+  /* Slider icon hover color override
+ ========================================================================== */
   .slider-icon:hover {
     color: #ffc85a !important;
   }

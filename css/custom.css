@@ -26,3 +26,6 @@ body {
     -ms-user-select: none;
     user-select: none;
   }
+  .slider-icon:hover {
+    color: #ffc85a !important;
+  }

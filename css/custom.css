@@ -36,3 +36,10 @@ body {
   .list-ovverride {
     list-style-type: '–  ' !important;
   }
+      /* Make whole div clickable for sidenav
+ ========================================================================== */
+  a.fillthediv{
+    display:block;
+    height: 100%;
+    padding: 15% 0;
+  }
